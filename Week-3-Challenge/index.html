@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<!-- Meta tags -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Added a Back to tp button -->
+        <style>
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 20px;
+            }
+            
+            #myBtn {
+              display: none;
+              position: fixed;
+              bottom: 20px;
+              right: 30px;
+              z-index: 99;
+              font-size: 18px;
+              border: none;
+              outline: none;
+              background-color: red;
+              color: white;
+              cursor: pointer;
+              padding: 15px;
+              border-radius: 4px;
+            }
+            
+            #myBtn:hover {
+              background-color: #555;
+            }
+            </style>
+      
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/css/style.css">
+    </head>
+
+    <body>
+
+            <!-- Navigation bar -->
+            <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" style="margin-left: 20px; margin-right: 20px; z-index: 10;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Dan'S Potfolio</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#skills">Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About me</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <!-- End navigation bar -->
+
+            <!-- Jumbotron -->
+            <div class="p-5 mb-4 bg-body-tertiary rounded-3 myBackground" style="border: solid 1px gainsboro; border-radius: 10px; padding: 10px; margin: 20px;">
+                <div class="py-5 jumboCopy container-fluid">
+                    <img src="./resources/img/background3.png" class="img-fluid" alt="discover my work">
+                    <div class="centered">
+                        <h1 class="display-5 fw-bold">Welcome to my portfolio</h1>
+                        <p class="col-md-12 fs-4">This is something that I imagined and created last year.<br> I hope you will like it.<br> Enjoy</p>
+                        <button class="btn btn-primary btn-lg" type="button">Discover my work</button>
+                    </div>
+                </div>
+            </div>
+            <!-- End jumbotron -->
+
+        <section class="mySkills"  id="skills" style="border: solid 1px gainsboro; border-radius: 10px; padding: 10px; margin: 20px;">
+
+            <!-- Cards -->
+            <div class="container-fluid content">
+                 <h2 class="sectionCard">Skills</h2>
+                <div class="row">
+       
+                    <!-- Card 1 -->
+                    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="./resources/img/copie 2_card.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Basic knowledge</h5>
+                                <p class="card-text">I have learned the basics of HTML, CSS, JAVA and few other must have languages for becoming pretty good on delivering great work.
+                                </p>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">See my work</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End card 1 -->
+
+                    <!-- Card 2 -->
+                    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="./resources/img/3_card.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Frameworks</h5>
+                                <p class="card-text">I learned some useful frameworks for deploying fast, reliable and useful outcomes.<br>Discover my work.</p>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Enjoy my work</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End card 2 -->
+
+                    <!-- Card 3 -->
+                    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="./resources/img/5_card.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Create</h5>
+                                <p class="card-text">I've created content for many companies and some customers.<br>Happy customers all round...<br> Find my content here.</p>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Go find my sites</a>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                    <!-- End card 3 -->
+                </div>
+            </div>
+        </section>
+
+        <section class="myWork" style="border: solid 1px gainsboro; border-radius: 10px; padding: 10px; margin: 20px;">
+            
+            <!-- Rows with work links -->
+
+            <div class="container-fluid content">
+                <h2 class="sectionRows" id="work">Work</h2>
+                <div class="row sectionWork">
+
+                    <!-- Row 1 -->
+
+                    <div class="row">
+                        <div class="sideAccent">
+                        </div>
+                    </div>    
+                    <div class="col-3">
+                        <img src="./resources/img/background1.png" class="workImages" alt="Blue Wave Project">
+                    </div>
+                    <div class="col-8">
+                        <h3>Blue Wave</h3>
+                        <p>
+                        Discover my beautiful Blue Wave Project,<br>a place of wonder in sight.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go to Blue Wave</a>
+                    </div>
+        
+                    <!-- End row 1 -->
+
+                    <!-- Row 2 -->
+            
+                    <div class="row">
+                        <div class="sideAccent">
+                        </div>
+                    </div>    
+                    <div class="col-3">
+                        <img src="./resources/img/background2.png" class="workImages" alt="Enjoy Freedom Project">
+                    </div>
+                    <div class="col-8">
+                        <h3>Enjoy Freedom</h3>
+                        <p>
+                        Find the wonderful feeling of freedom,<br>on my Enjoy Freedom Project.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go to Enjoy Freedom</a>
+                    </div>
+        
+                    <!-- End row 2 -->
+
+                    <!-- Row 3 -->
+            
+                    <div class="row">
+                        <div class="sideAccent">
+                        </div>
+                    </div>    
+                    <div class="col-3">
+                        <img src="./resources/img/bg-img.png" class="workImages" alt="Amazing Landscapes Project">
+                    </div>
+                    <div class="col-8">
+                        <h3>Amazing Landscapes</h3>
+                        <p>
+                        Let me take you on a different journey,<br>in my Amazing Landscapes Project.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go to Amazing Landscapes</a>
+                    </div>
+        
+                    <!-- End row 3 -->
+
+                </div>
+            </div>
+            <!-- End of rows with work links -->
+        </section>    
+
+        <!-- Personal card section -->
+        <section class="aboutSection" style="position: relative; justify-content: center;">
+            
+            <div class="card mb-3" style="width: full; align-items: center; margin: 20px; border-radius: 10px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./resources/img/DanID.jpg" class="img-fluid rounded-start" alt="dan sora">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title" id="about">About me</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <button type="submit" class="btn btn-primary">See my resume</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- End of personal card section -->
+
+        <!-- New footer -->
+            
+            <div class="footer" id="contact">
+                
+                <!-- Add icon library -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <!-- Add font awesome icons -->
+        
+                <div class="icon-row" id="alignIcons">
+                    
+                        
+                            <div class="zoom">
+                                <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                            </div>
+                        
+                        
+                            <div class="zoom">
+                                <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                            </div>
+                        
+                        
+                            <div class="zoom">
+                                <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+                            </div>
+                        
+                        
+                            <div class="zoom">    
+                                <a href="https://www.github.com" class="fa fa-github"></a>
+                            </div>
+                        
+                        
+                            <div class="zoom">
+                                <a href="#" class="fa fa-envelope"></a>
+                            </div>
+                        
+                    
+                </div>    
+            </div>
+
+            <!-- End of new footer -->
+
+
+        <!-- Back to top button -->
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <!-- End of Back on top section -->
+
+        <!-- Optional JavaScript -->
+        
+        <!-- Back on top button script -->
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+        <!-- End of Back on top button script -->
+
+        <!-- Popper.js, then Bootstrap JS -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+
+
+
+    </body>
+
+</html>
